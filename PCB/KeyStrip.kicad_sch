@@ -1066,16 +1066,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 116.84) (xy 76.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023de216-4432-4e78-9f63-e9d0dbcf2804")
-	)
-	(wire
-		(pts
 			(xy 82.55 72.39) (xy 82.55 74.93)
 		)
 		(stroke
@@ -1153,16 +1143,6 @@
 			(type default)
 		)
 		(uuid "19264378-6f71-419b-998c-16b8e734f72f")
-	)
-	(wire
-		(pts
-			(xy 60.96 106.68) (xy 60.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e2e8bd-1b08-46fe-bace-b4cec2e7a04c")
 	)
 	(wire
 		(pts
@@ -1246,16 +1226,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 110.49) (xy 63.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b41cc3-1abd-4676-93f1-7f3355f61ca8")
-	)
-	(wire
-		(pts
 			(xy 121.92 107.95) (xy 121.92 109.22)
 		)
 		(stroke
@@ -1273,16 +1243,6 @@
 			(type default)
 		)
 		(uuid "3829328e-b527-4ed8-ae92-8a24e5e44747")
-	)
-	(wire
-		(pts
-			(xy 90.17 119.38) (xy 78.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f3b89dc-3ee8-415c-8b44-c34bca20963a")
 	)
 	(wire
 		(pts
@@ -1396,16 +1356,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 105.41) (xy 73.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731a8c71-6d80-4bb8-874d-8cf6488f8c49")
-	)
-	(wire
-		(pts
 			(xy 82.55 57.15) (xy 72.39 57.15)
 		)
 		(stroke
@@ -1516,16 +1466,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 102.87) (xy 68.58 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2efb2da-56f9-4b18-8985-d153d27e3979")
-	)
-	(wire
-		(pts
 			(xy 120.65 91.44) (xy 127 91.44)
 		)
 		(stroke
@@ -1533,16 +1473,6 @@
 			(type default)
 		)
 		(uuid "a32ae79f-001e-4eb8-87e2-06426a6db72e")
-	)
-	(wire
-		(pts
-			(xy 71.12 111.76) (xy 71.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67555b2-8b78-4a55-b479-4e4dba51829f")
 	)
 	(wire
 		(pts
@@ -1666,16 +1596,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 107.95) (xy 66.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68c6192-3226-4933-9790-4b46abf2dafe")
-	)
-	(wire
-		(pts
 			(xy 125.73 111.76) (xy 125.73 120.65)
 		)
 		(stroke
@@ -1792,7 +1712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DualDiode"
 			(at 120.65 71.12 0)
 			(effects
 				(font
@@ -1878,7 +1798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Choc_V1V2_1.00u"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -1946,7 +1866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Choc_V1V2_1.00u"
 			(at 55.88 63.5 0)
 			(effects
 				(font
@@ -2014,7 +1934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+		(property "Footprint" "Library:SK6812Mini-E"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -2067,92 +1987,6 @@
 			(project "KeyStrip"
 				(path "/997a2cad-0c53-407f-a2aa-20d51c5ec46f"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Connectors:JST_08")
-		(at 69.85 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3231378e-4793-4fb7-bd2e-4ac0dc8b43c8")
-		(property "Reference" "J1"
-			(at 69.85 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST_08"
-			(at 69.85 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical"
-			(at 83.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST Connector  8 pins"
-			(at 69.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20b65758-0ae4-4a43-899f-c2a1f67abc94")
-		)
-		(pin "2"
-			(uuid "3f85391f-5e15-4a29-bf5b-763405155974")
-		)
-		(pin "3"
-			(uuid "8c780b0c-3f06-4317-8e8c-08c53ca19252")
-		)
-		(pin "7"
-			(uuid "54b9d6c7-4bf7-4b72-b51f-cf5440994fce")
-		)
-		(pin "6"
-			(uuid "bcad3130-08d0-47e6-96af-00ad80e762df")
-		)
-		(pin "5"
-			(uuid "a18b5bc0-d1b3-40be-a62e-d2688b100322")
-		)
-		(pin "4"
-			(uuid "6dc7a116-e483-4516-a186-8e5ff88878ed")
-		)
-		(pin "8"
-			(uuid "27518e38-fbd4-442a-8485-88a49ea91514")
-		)
-		(instances
-			(project ""
-				(path "/997a2cad-0c53-407f-a2aa-20d51c5ec46f"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2270,7 +2104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Choc_V1V2_1.00u"
 			(at 118.11 64.77 0)
 			(effects
 				(font
@@ -2338,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+		(property "Footprint" "Library:SK6812Mini-E"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -2424,7 +2258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DualDiode"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -2510,7 +2344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+		(property "Footprint" "Library:SK6812Mini-E"
 			(at 137.16 85.09 0)
 			(effects
 				(font
@@ -2594,7 +2428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+		(property "Footprint" "Library:SK6812Mini-E"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -2680,7 +2514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DualDiode"
 			(at 120.65 87.63 0)
 			(effects
 				(font
@@ -2766,7 +2600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Choc_V1V2_1.00u"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -2834,7 +2668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+		(property "Footprint" "Library:SK6812Mini-E"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -2918,13 +2752,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Choc_V1V2_1.00u"
 			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2988,7 +2821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DualDiode"
 			(at 120.65 104.14 0)
 			(effects
 				(font
@@ -3074,7 +2907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
+		(property "Footprint" "Library:SK6812Mini-E"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -3158,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Choc_V1V2_1.00u"
 			(at 55.88 96.52 0)
 			(effects
 				(font
@@ -3228,7 +3061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DualDiode"
 			(at 58.42 102.87 0)
 			(effects
 				(font
@@ -3316,7 +3149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DualDiode"
 			(at 58.42 69.85 0)
 			(effects
 				(font
