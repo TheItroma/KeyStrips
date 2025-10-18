@@ -1,0 +1,143 @@
+(footprint "JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST EH series connector, B8B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST EH vertical")
+	(property "Reference" "REF**"
+		(at 8.75 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "0b8b32a7-c4a7-4ae9-bfb2-577f4e9eac86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical"
+		(at 8.75 3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4304788a-776f-48f4-b6b8-e16588845a16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29f90f31-9c15-43e7-801a-5e855a4754f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ca54626-c541-4cca-8e9f-c17e387525cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 8.75 1.5 0)
+		(layer "F.Fab")
+		(uuid "7fb0d678-0984-4ee6-92bc-cc717fa75ba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e5498eb-fb08-4ecc-85fe-e039f8c33d2a")
+	)
+	(pad "2" thru_hole oval
+		(at 2 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ddf7734-6905-4bc3-945f-e0ec08f55841")
+	)
+	(pad "3" thru_hole oval
+		(at 4 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da01cad5-1b1f-4bf7-809c-6a4d536ce958")
+	)
+	(pad "4" thru_hole oval
+		(at 6 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de330e20-f28e-4bef-a005-9c31ccce9a07")
+	)
+	(pad "5" thru_hole oval
+		(at 8 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca5e4ae5-b675-43c7-a8a3-fce60913cdc2")
+	)
+	(pad "6" thru_hole oval
+		(at 10 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8977c61-3e17-403e-af23-0b2df56373aa")
+	)
+	(pad "7" thru_hole oval
+		(at 12 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4df1941-f49f-4210-bc3c-71413f843980")
+	)
+	(pad "8" thru_hole oval
+		(at 14 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ffbc362-1fe7-44c2-aa7a-477c0d145121")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

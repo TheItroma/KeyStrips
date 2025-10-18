@@ -54,7 +54,7 @@
 	(attr through_hole)
 	(fp_poly
 		(pts
-			(xy -4.318 0.381) (xy -3.683 0.381) (xy -3.683 1.016)
+			(xy 3.732577 0.938279) (xy 3.732577 0.303279) (xy 4.367577 0.303279)
 		)
 		(stroke
 			(width 0.16)
@@ -339,22 +339,14 @@
 		)
 	)
 	(pad "1" smd oval
-		(at 2.7 -0.64)
+		(at -2.7 -0.64)
 		(size 1.8 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 1)
 		(thermal_gap 0.2)
-		(uuid "df33cf9d-4845-43e2-9b52-e237465d1144")
+		(uuid "8c574cf1-7f95-41ca-832c-a48009cd0abf")
 	)
 	(pad "2" smd oval
-		(at 2.7 0.64)
-		(size 1.8 0.82)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(zone_connect 1)
-		(thermal_gap 0.2)
-		(uuid "a661c71f-36b3-4aa1-88ad-b5907427a23f")
-	)
-	(pad "3" smd oval
 		(at -2.7 0.64)
 		(size 1.6 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -362,13 +354,21 @@
 		(thermal_gap 0.2)
 		(uuid "4d8477fb-ba84-4f11-850a-a8bf2044ba78")
 	)
-	(pad "4" smd oval
-		(at -2.7 -0.64)
+	(pad "3" smd oval
+		(at 2.7 0.64)
 		(size 1.8 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(zone_connect 1)
 		(thermal_gap 0.2)
-		(uuid "8c574cf1-7f95-41ca-832c-a48009cd0abf")
+		(uuid "a661c71f-36b3-4aa1-88ad-b5907427a23f")
+	)
+	(pad "4" smd oval
+		(at 2.7 -0.64)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 1)
+		(thermal_gap 0.2)
+		(uuid "df33cf9d-4845-43e2-9b52-e237465d1144")
 	)
 	(embedded_fonts no)
 )
