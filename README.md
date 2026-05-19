@@ -2,7 +2,8 @@
 
 After a bit of research (this)[https://github.com/Ghgore/handwire-pcbs] came up.
 This differs from that where as instead of singular switches, it is strips that
-can be broken into singular switches.
+can be broken into singular switches. It has for main advantage over the amoeba
+design(handwire-pcb is the repo name)
 
 The KeyStrip design allows for :
 
